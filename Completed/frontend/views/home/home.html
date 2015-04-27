@@ -1,32 +1,32 @@
 <!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file. -->
 
 <div class="container-fluid">
-	<row>
-		<div class="col-md-8 col-md-offset-2" style="margin-top: 20px;">
-			<table class="table table-hover">
-			  <thead>
-			    <tr>
-			      <th>From</th>
-			      <th>Subject</th>
-			      <th>Body Preview</th>
-			      <th>Web Link</th>
-			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr ng-repeat="email in home.emails">
-			      <td>{{email.Sender.EmailAddress.Name}} ({{email.Sender.EmailAddress.Address}})</td>
-			      <td>{{email.Subject}}</td>
-			      <td>{{email.BodyPreview}}</td>
-			      <td><a href={{email.WebLink}}>View on OWA</a></td>
-			    </tr>
+  <row>
+    <div class="col-md-8 col-md-offset-2" style="margin-top: 20px;">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>From</th>
+            <th>Subject</th>
+            <th>Body Preview</th>
+            <th>Web Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="email in home.emails">
+            <td>{{email.Sender.EmailAddress.Name}} ({{email.Sender.EmailAddress.Address}})</td>
+            <td>{{email.Subject}}</td>
+            <td>{{email.BodyPreview}}</td>
+            <td><a href={{email.WebLink}}>View on OWA</a></td>
+          </tr>
 
-			    <tr ng-if="emails.length == 0">
-			      <td colspan="2" align="center">No emails were found!</td>
-			    </tr>
-			  </tbody>
-			</table>
-		</div>
-	</row>
+          <tr ng-if="home.emails.length == 0">
+            <td colspan="4" align="center">Your inbox is empty.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </row>
 </div>
 
 <!--
