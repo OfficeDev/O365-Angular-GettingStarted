@@ -1,0 +1,12 @@
+{
+  "name": "O365-JavaScript-GetStarted",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": ">=1.2.x",
+    "angular-route": ">=1.2.x",
+    "angular-loader": ">=1.2.x",
+    "angular-mocks": ">=1.2.x"
+  }
+}
