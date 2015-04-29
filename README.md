@@ -8,9 +8,9 @@
 * [Questions and comments](#questions-and-comments)
 * [Additional resources](#additional-resources)
 
-This sample was built for [Get started with Office 365 APIs in JavaScript web applications](https://msdn.microsoft.com/en-us/office/office365/howto/get-started-with-JavaScript-and-Office-365-APIs). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
+This sample was built for [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
 
-Check out [Get started with Office 365 APIs in JavaScript web applications](https://msdn.microsoft.com/en-us/office/office365/howto/get-started-with-JavaScript-and-Office-365-APIs) for a complete walkthrough on creating a JavaScript web application with the Office 365 APIs. If you'd prefer to just run the completed project found in the *Completed* folder, read the rest of this README. 
+Check out [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js) for a complete walkthrough on creating a JavaScript web application with the Office 365 APIs. If you'd prefer to just run the completed project found in the *Completed* folder, read the rest of this README. 
 
 <a name="prerequisites"/>
 ## Prerequisites
