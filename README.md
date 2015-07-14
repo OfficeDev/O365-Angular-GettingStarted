@@ -61,6 +61,8 @@ In order to get an access token for Office 365 API requests, the application wil
 
 4. Using the **Manage Manifest** button, upload the updated manifest file.
 
+**Note** This sample requires a valid token be returned to the application. Most business applications will have a server-side component for user authentication built into the web application for security reasons. Azure has [three samples](https://github.com/azureadsamples?query=singlepage) that show how this can be implemented.
+
 <a name="run"/>
 ## Run the app
 

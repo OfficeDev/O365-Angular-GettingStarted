@@ -9,7 +9,14 @@ angular.module('app.home', [])
 .controller('homeController', ['$http', function($http) {
     var vm = this;
 
-    // Pass in the resource URL that you're requesting.
+    /**
+     * Pass in the resource URL that you're requesting.
+     * 
+     * Note: This sample requires a valid token be returned to the application. Most business 
+     * applications will have a server-side component for user authentication built into the web 
+     * application for security reasons. Azure has [three samples](https://github.com/azureadsamples?
+     * query=singlepage) that show how this can be implemented.
+     */
     $http.get("https://outlook.office365.com/api/v1.0/me/messages")
     .success(function(data, status, headers, config) {
       console.log('HTTP request to Mail API returned successfully.');
