@@ -12,10 +12,13 @@ angular.module('app.home', [])
     /**
      * Pass in the resource URL that you're requesting.
      * 
-     * Note: This sample requires a valid token be returned to the application. Most business 
-     * applications will have a server-side component for user authentication built into the web 
-     * application for security reasons. Azure has [three samples](https://github.com/azureadsamples?
-     * query=singlepage) that show how this can be implemented.
+     * Note: ADAL JS does not validate the token received from Azure AD. It relies on the app’s 
+     * backend to do so, and until we call the backend, we don’t know if the user obtained an 
+     * acceptable token. Business applications should have a server-side component for user 
+     * authentication built into the web application for security reasons. Without this backend token 
+     * validation, your app is susceptible to security attacks such as the confused deputy problem. 
+     * Check out this blog post (http://www.cloudidentity.com/blog/2015/02/19/introducing-adal-js-v1/) 
+     * for more information.
      */
     $http.get("https://outlook.office365.com/api/v1.0/me/messages")
     .success(function(data, status, headers, config) {

@@ -61,7 +61,7 @@ In order to get an access token for Office 365 API requests, the application wil
 
 4. Using the **Manage Manifest** button, upload the updated manifest file.
 
-**Note** This sample requires a valid token be returned to the application. Most business applications will have a server-side component for user authentication built into the web application for security reasons. Azure has [three samples](https://github.com/azureadsamples?query=singlepage) that show how this can be implemented.
+**Note** ADAL JS does not validate the token received from Azure AD. It relies on the app’s backend to do so, and until we call the backend, we don’t know if the user obtained an acceptable token. Business applications should have a server-side component for user authentication built into the web application for security reasons. Without this backend token validation, your app is susceptible to security attacks such as the [confused deputy problem](https://en.wikipedia.org/wiki/Confused_deputy_problem). Check out this [blog post](http://www.cloudidentity.com/blog/2015/02/19/introducing-adal-js-v1/) for more information.
 
 <a name="run"/>
 ## Run the app
