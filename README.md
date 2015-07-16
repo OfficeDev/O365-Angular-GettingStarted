@@ -35,7 +35,7 @@ This sample requires the following:
 
 5. Choose a name for the app, such as *SimpleMailApp*, and select **Web application and/or web API** as its Type. Then click the arrow to continue.
 
-6. The value of **Sign-on URL** is the URL where the application will be hosted. Use *http://localhost:8080/* for the sample project.
+6. The value of **Sign-on URL** is the URL where the application will be hosted. Use *http://127.0.0.1:8080/* for the sample project.
 
 7. The value of **App ID URI** is a unique identifier for Azure AD to identify the app. You can use http://{your_subdomain}/SimpleMailApp, where {your_subdomain} is the subdomain of .onmicrosoft you specified while signing up for your Office 365 Developer Site. Then click the check mark to provision the application.
 
@@ -72,7 +72,7 @@ Next, install the necessary dependencies and run the project via the command lin
 
 1. Install project dependencies by running ```npm install```.
 2. Now that all the project dependencies have been installed, start the development server by running ```node server.js``` in the *Completed* folder.
-3. Navigate to ```http://localhost:8080/``` using Google Chrome (because cookies are not accessible in Internet Explorer while your app is running in localhost, you'll need to use a different browser, such as Google Chrome, to test your application).
+3. Navigate to ```http://127.0.0.1:8080/``` in your web browser.
 
 <a name="questions-and-comments"/>
 ## Questions and comments
