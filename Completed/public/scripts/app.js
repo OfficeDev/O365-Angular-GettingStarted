@@ -31,9 +31,8 @@
 		// Initialize the ADAL provider with your tenant name and clientID (found in the Azure Management Portal).
 		adalAuthenticationServiceProvider.init(
 			{
-				tenant: 'patsoldemo5.onmicrosoft.com',
-				// clientId: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
-				clientId: '1e421819-9163-40bb-8238-fe8021777e5b',
+				tenant: '{your_subdomain}.onmicrosoft.com',
+				clientId: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
 				endpoints: endpoints,
 				cacheLocation: 'localStorage'
 			},
@@ -45,7 +44,7 @@
 
 // *********************************************************
 //
-// O365-JavaScript-GetStarted, https://github.com/OfficeDev/O365-JavaScript-GetStarted
+// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

@@ -37,7 +37,7 @@
 
 // *********************************************************
 //
-// O365-JavaScript-GetStarted, https://github.com/OfficeDev/O365-JavaScript-GetStarted
+// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
