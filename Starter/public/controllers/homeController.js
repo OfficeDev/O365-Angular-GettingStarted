@@ -1,26 +1,24 @@
-/*
-* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
+/** 
+ * Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 */
 
-angular.module('routes', ['ngRoute'])
+(function () {
+  angular
+    .module('app')
+    .controller('HomeController', HomeController);
+    
+  /**
+   * The HomeController code.
+   */
+  function HomeController($http, $log) {
+    var vm = this;
+  };
+})();
 
-// Configure the routes.
-.config(function($routeProvider) { 
-	$routeProvider
-		.when('/', {
-			templateUrl: 'views/home/home.html',
-			controller: 'homeController',
-			controllerAs: 'home'
-		})
-
-		.otherwise({ 
-			redirectTo: '/' 
-		});
-});
 
 // *********************************************************
 //
-// O365-JavaScript-GetStarted, https://github.com/OfficeDev/O365-JavaScript-GetStarted
+// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

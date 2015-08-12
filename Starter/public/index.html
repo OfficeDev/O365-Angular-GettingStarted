@@ -2,43 +2,47 @@
 
 <!DOCTYPE html>
 <html ng-app="app">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Office 365 APIs Sample</title>
+    <title>Office 365 APIs sample</title>
     <base href="/">
-    
+  
     <style>
-        body { padding-top: 50px; }
+      body {
+        padding-top: 50px;
+      }
     </style>
-
-    <!-- Bring in dependencies. -->
+  
+    <!-- Third party dependencies. -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-
-    <!-- This is our app's JavaScript. --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+  
+    <!-- App code. -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/app.routes.js"></script> 
-    <script src="views/home/homeController.js"></script>
+    <script src="controllers/homeController.js"></script>
   </head>
-  <body class="container">
-    <header>
-      <div class="col-md-8 col-md-offset-2">
+
+<body class="container">
+  <header>
+    <div class="col-md-8 col-md-offset-2">
       <div class="page-header">
-        <h1>Get started with Office 365 APIs <small>JavaScript</small></h1>
+        <h1>Get started with Office 365 APIs <small>Angular</small></h1>
       </div>
-      </div>
-    </header>
-    <main>
-      <div ng-view></div>
-    </main>
-  </body>
+    </div>
+  </header>
+  <main>
+    <div ng-view></div>
+  </main>
+</body>
+
 </html>
 
 <!--
-O365-JavaScript-GetStarted, https://github.com/OfficeDev/O365-JavaScript-GetStarted
+O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
  
 Copyright (c) Microsoft Corporation
 All rights reserved. 

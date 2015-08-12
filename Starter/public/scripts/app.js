@@ -2,16 +2,31 @@
 * Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 */
 
-'use strict';
+(function () {
+  angular.module('app', [
+    'ngRoute',
+  ])
+	.config(config);
+  
+  // Configure the routes.
+	function config($routeProvider) {
+		$routeProvider
+			.when('/', {
+				templateUrl: 'views/home.html',
+				controller: 'HomeController',
+				controllerAs: 'home'
+			})
 
-angular.module('app', [
-  'routes',
-  'app.home'
-]);
+			.otherwise({
+				redirectTo: '/'
+			});
+	};
+})();
+
 
 // *********************************************************
 //
-// O365-JavaScript-GetStarted, https://github.com/OfficeDev/O365-JavaScript-GetStarted
+// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

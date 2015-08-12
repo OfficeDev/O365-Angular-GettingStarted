@@ -1,12 +1,6 @@
 # Get started with Office 365 APIs in web applications (JavaScript)
 
-**Table of contents**
-
-* [Prerequisites](#prerequisites)
-* [Register and configure the app](#configure) 
-* [Run the app](#run)
-* [Questions and comments](#questions-and-comments)
-* [Additional resources](#additional-resources)
+## This branch is a work in progress. For up to date information, please switch to the master branch.
 
 This sample was built for [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
 
@@ -77,8 +71,8 @@ Next, install the necessary dependencies and run the project via the command lin
 <a name="questions-and-comments"/>
 ## Questions and comments
 
-- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-JavaScript-GetStarted/issues).
-- For more general feedback, send an email to [docthis@microsoft.com](mailto:docthis@microsoft.com?subject=Feedback%20on%20the%20Office%20365%20Get%20Started%20with%20JavaScript%20sample).
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-GetStarted/issues).
+- For general questions about the Office 365 APIs, post to [Stack Overflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [office365].
   
 <a name="additional-resources"/>
 ## Additional resources
