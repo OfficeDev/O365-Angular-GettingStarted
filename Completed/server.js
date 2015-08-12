@@ -14,11 +14,11 @@ var port = process.env.PORT || 8080;
 app.use(morgan('dev')); 
 
 // Set the front-end folder to serve public assets.
-app.use(express.static(__dirname + '/frontend'));
+app.use(express.static(__dirname + '/public'));
 
 // Set up our one route to the index.html file.
 app.get('*', function(req, res) {
-	res.sendFile(path.join(__dirname + '/frontend/views/index.html'));
+	res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 // Start the server.  

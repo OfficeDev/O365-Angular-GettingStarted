@@ -2,12 +2,46 @@
 * Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 */
 
-'use strict';
+(function () {
+  angular.module('app', [
+    'ngRoute',
+    'AdalAngular'
+  ])
+	.config(config);
+  
+  // Configure the routes.
+	function config($routeProvider, $httpProvider, adalAuthenticationServiceProvider) {
+		$routeProvider
+			.when('/', {
+				templateUrl: 'views/home.html',
+				controller: 'HomeController',
+				controllerAs: 'home',
+				requireADLogin: true
+			})
 
-angular.module('app', [
-  'routes',
-  'app.home'
-]);
+			.otherwise({
+				redirectTo: '/'
+			});
+
+		// The endpoints here are resources for cross origin requests.
+		var endpoints = {
+			'https://outlook.office365.com': 'https://outlook.office365.com'
+		};
+	
+		// Initialize the ADAL provider with your tenant name and clientID (found in the Azure Management Portal).
+		adalAuthenticationServiceProvider.init(
+			{
+				tenant: 'patsoldemo5.onmicrosoft.com',
+				// clientId: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
+				clientId: '1e421819-9163-40bb-8238-fe8021777e5b',
+				endpoints: endpoints,
+				cacheLocation: 'localStorage'
+			},
+			$httpProvider
+			);
+	};
+})();
+
 
 // *********************************************************
 //
