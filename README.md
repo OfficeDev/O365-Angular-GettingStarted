@@ -69,7 +69,7 @@ Next, install the necessary dependencies and run the project via the command lin
 <a name="questions-and-comments"/>
 ## Questions and comments
 
-- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-GetStarted/issues).
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-GettingStarted/issues).
 - For general questions about the Office 365 APIs, post to [Stack Overflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [office365].
   
 <a name="additional-resources"/>
