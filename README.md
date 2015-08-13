@@ -1,6 +1,4 @@
-# Get started with Office 365 APIs in web applications (JavaScript)
-
-## This branch is a work in progress. For up to date information, please switch to the master branch.
+# Create an Angular app with Office 365 APIs
 
 This sample was built for [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
 
