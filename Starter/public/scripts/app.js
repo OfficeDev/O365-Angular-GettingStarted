@@ -4,7 +4,7 @@
 
 (function () {
   angular.module('app', [
-    'ngRoute',
+    'ngRoute'
   ])
 	.config(config);
   
