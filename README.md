@@ -2,9 +2,9 @@
 
 ## This branch is a work in progress. For up to date information, please switch to the master branch.
 
-This sample was built for [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
+This sample was built for [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
 
-Check out [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js) for a complete walkthrough on creating a JavaScript web application with the Office 365 APIs. If you'd prefer to just run the completed project found in the *Completed* folder, read the rest of this README. 
+Check out [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js) for a complete walkthrough on creating an Angular web application with the Office 365 APIs. If you'd prefer to just run the completed project found in the *Completed* folder, read the rest of this README. 
 
 <a name="prerequisites"/>
 ## Prerequisites
@@ -60,7 +60,7 @@ In order to get an access token for Office 365 API requests, the application wil
 <a name="run"/>
 ## Run the app
 
-Open **app.routes.js** in *Completed/frontend/scripts* and replace *{your_subdomain}* with the subdomain of .onmicrosoft you specified for your Office 365 tenant and the client ID of your registered Azure application on lines 29 and 30, respectively. 
+Open **app.js** in *Completed/public/scripts* and replace *{your_subdomain}* with the subdomain of .onmicrosoft you specified for your Office 365 tenant and the client ID of your registered Azure application on lines 34 and 35, respectively. 
 
 Next, install the necessary dependencies and run the project via the command line. Begin by opening a command prompt and navigating to the *Completed* folder. Once there, follow the steps below.
 
@@ -77,7 +77,7 @@ Next, install the necessary dependencies and run the project via the command lin
 <a name="additional-resources"/>
 ## Additional resources
 
-* [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js)
+* [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js)
 * [Office 365 APIs documentation](http://msdn.microsoft.com/office/office365/howto/platform-development-overview)
 * [Office Dev Center](http://dev.office.com/)
 
