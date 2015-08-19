@@ -44,7 +44,7 @@
 
 // *********************************************************
 //
-// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
+// O365-Angular-GettingStarted, https://github.com/OfficeDev/O365-Angular-GettingStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

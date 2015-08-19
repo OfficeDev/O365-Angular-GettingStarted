@@ -2,10 +2,10 @@
 * Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 */
 
-var express   	= require('express');
-var app        	= express(); 
-var morgan 			= require('morgan');
-var path 				= require('path'); 
+var express = require('express');
+var app = express();
+var morgan = require('morgan');
+var path = require('path'); 
 
 // Initialize variables. 
 var port = process.env.PORT || 8080; 
@@ -17,7 +17,7 @@ app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public'));
 
 // Set up our one route to the index.html file.
-app.get('*', function(req, res) {
+app.get('*', function (req, res) {
 	res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
@@ -27,7 +27,7 @@ console.log('Listening on port ' + port + '...');
 
 // *********************************************************
 //
-// O365-Angular-GetStarted, https://github.com/OfficeDev/O365-Angular-GetStarted
+// O365-Angular-GettingStarted, https://github.com/OfficeDev/O365-Angular-GettingStarted
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
