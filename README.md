@@ -1,7 +1,5 @@
 # Create an Angular app with Office 365 APIs
 
-[![Issue Stats](http://issuestats.com/github/OfficeDev/O365-Angular-GettingStarted/badge/issue?style=flat)](http://issuestats.com/github/OfficeDev/O365-Angular-GettingStarted)
-
 This sample was built for [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js). You will complete the project in the *Starter* folder as you walk through the tutorial found on that page. You can find the completed project in the *Completed* folder of this repository.
 
 Check out [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js) for a complete walkthrough on creating an Angular web application with the Office 365 APIs. If you'd prefer to just run the completed project found in the *Completed* folder, read the rest of this README. 
