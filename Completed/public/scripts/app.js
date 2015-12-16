@@ -23,7 +23,7 @@
 				redirectTo: '/'
 			});
 
-		// The endpoints here are resources for cross origin requests.
+		// The endpoints here are resources for ADAL to get tokens for.
 		var endpoints = {
 			'https://outlook.office365.com': 'https://outlook.office365.com'
 		};
